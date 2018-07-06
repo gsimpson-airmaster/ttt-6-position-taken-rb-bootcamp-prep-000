@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 
-def position_taken?(board, index = -1)
-  if(index == -1)
+def position_taken?(board, index)
+  if(index == nil)
     return FALSE
   end
   if(board[index].upcase == "X" || board[index].upcase == "O")
